@@ -5,3 +5,4 @@
 
 - Carrosel
 - https://hipnoise.com.br/
+- https://wantedind.com/
