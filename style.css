@@ -16,7 +16,7 @@ header {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	font-size: 1.8rem;
+	font-size: 1.2rem;
 }
 
 .logo {
@@ -43,7 +43,7 @@ footer{
     bottom: 0;
     background: #111;
     height: auto;
-    width: 100vw;
+    width: 100%;
     font-family: "Open Sans";
     padding-top: 30px;
     color: #fff;
@@ -60,9 +60,7 @@ footer{
 
 .footer-content h3{
     font-size: 1.8rem;
-    font-weight: 400;
-    text-transform: capitalize;
-	line-height: 3rem;
+    color: whitesmoke;
 }
 
 .footer-content p{
@@ -74,7 +72,7 @@ footer{
 
 .footer-bottom{
     background: #000;
-    width: 100vw;
+    width: 100%;
     padding: 20px 0;
     text-align: center;
 }
@@ -123,12 +121,22 @@ footer{
   background-color: rgba(0,0,0,0.8);
 }
 
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+main {
+    margin-top: 100vh;
+}
+
+.coll {
+    text-align: center;
+}
+
+.lolja {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lolja img {
+    height: 250px;
 }
