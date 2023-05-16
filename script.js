@@ -29,7 +29,7 @@ function addCar(n1) {
 
     res = res + n1;
 
-    total.innerHTML = `${res.toFixed(2)}  `
+    total.innerHTML = `  ${res.toFixed(2)}  `
     
 
 }
