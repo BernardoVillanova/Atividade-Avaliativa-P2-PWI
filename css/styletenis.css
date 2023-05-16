@@ -135,20 +135,27 @@ footer{
     
   }
 
-  #btnComprar{
-    border:none;
-    background-color:rgb(117, 106, 106);
-    color:white;
-    text-align:center;
-    padding-right:235px;
-    padding-bottom:15px;
-    padding-top:15px;
-    margin-top:15px;
-    border-radius:3px;
+  #btnComprar {
+    border: none;
+    background-color: rgb(117, 106, 106);
+    color: white;
+    text-align: center;
+    padding-left:117px;
+    padding-right:117px;
+    padding-bottom:10px;
+    padding-top:10px;
+    margin-top: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor:pointer;
-    font-size: 15px;
+    text-align: center;
+    align-self: center;
+    transition: background-color 0.3s;
   }
 
+  #btnComprar:hover{
+    background-color: rgb(151, 137, 137);
+  }
