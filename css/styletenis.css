@@ -112,7 +112,7 @@ footer{
   
   .tennis-card img {
     width: 200px;
-    height: auto;
+    height: 113px;
     object-fit: cover;
     margin-left:3rem;
   }
@@ -124,7 +124,8 @@ footer{
   .tennis-card h2 {
     margin: 0;
     font-size: 18px;
-    text-align:center
+    text-align:center;
+    padding-bottom:10px;
   }
   
   .tennis-card p {
@@ -132,6 +133,7 @@ footer{
     font-size: 14px;
     color: #3baa1f;
     text-align:center;
+    padding-top:7px;
     
   }
 
@@ -158,4 +160,16 @@ footer{
 
   #btnComprar:hover{
     background-color: rgb(151, 137, 137);
+  }
+  
+  #sessaoPrincipal {
+    display: flex;
+  }
+  
+  #sessaoPrincipal > * {
+    margin-right: 50px; /* Adicione o espaçamento horizontal desejado */
+  }
+  
+  #sessaoPrincipal > *:last-child {
+    margin-right: 0; /* Remova o espaçamento para o último item */
   }
