@@ -5,25 +5,19 @@ var nomeProd;
 
 showSlides(slideIndex);
 
-// Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
 }
 
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
+  if (n > slides.length) {slideIndex = 1} //caso o parametro N seja maior que o numero de slides ele retornará ao primeiro slide
+  if (n < 1) {slideIndex = slides.length} //caso o parametro N seja menor que 1, ou seja, for para trás
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+    slides[i].style.display = "none"; //ocultando eles
   }
-  slides[slideIndex-1].style.display = "block";
+  slides[slideIndex-1].style.display = "block"; //exibir ele
 } 
 
 function addCar(n1, nomeProd) {
